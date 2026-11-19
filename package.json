@@ -1,0 +1,64 @@
+{
+  "name": "shebamed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:all": "node scripts/dev.mjs",
+    "dev:web": "node scripts/dev.mjs --web-only",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "node --env-file=.env.local ./node_modules/vitest/vitest.mjs run",
+    "test:e2e": "playwright test",
+    "db:check": "node --env-file=.env.local --import tsx scripts/database.ts check",
+    "db:setup": "node --env-file=.env.local --import tsx scripts/database.ts setup",
+    "seed:demo": "node --env-file=.env.local --import tsx scripts/database.ts seed",
+    "admin:create": "node --env-file=.env.local --import tsx scripts/database.ts admin",
+    "worker": "node --env-file=.env.local --import tsx scripts/worker.ts",
+    "reconcile": "node --env-file=.env.local --import tsx scripts/reconcile.ts"
+  },
+  "dependencies": {
+    "@fontsource/hind-siliguri": "^5.3.0",
+    "@fontsource/manrope": "^5.3.0",
+    "@napi-rs/canvas": "^1.1.1",
+    "@radix-ui/react-slot": "^1.2.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "@tesseract.js-data/eng": "^1.0.0",
+    "argon2": "^0.44.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "file-type": "^21.0.0",
+    "libphonenumber-js": "^1.12.0",
+    "lucide-react": "^0.468.0",
+    "mongodb": "^6.20.0",
+    "motion": "^12.0.0",
+    "next": "^16.0.0",
+    "pdfjs-dist": "^6.5.438",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.0",
+    "tesseract.js": "^6.0.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^5.1.0"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.1"
+    }
+  }
+}
