@@ -306,6 +306,9 @@ The patient receives a ShebaMed account and can begin building a medical history
 ### Step 2 — Upload Medical Records
 
 The patient uploads reports, prescriptions, or other supported medical documents.
+<img width="1535" height="863" alt="image" src="https://github.com/user-attachments/assets/6b74f789-59a1-4efb-849c-a8361941a780" />
+
+
 
 ### Step 3 — Extract and Organize Information
 
@@ -317,9 +320,18 @@ The patient can search for previous medical information.
 
 The AI retrieves relevant records and provides source-linked answers where supporting information is available.
 
+<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/d3b67b10-ff48-41f2-b0c6-8e5f6d683e27" />
+<img width="800" height="747" alt="image" src="https://github.com/user-attachments/assets/6d9cc24d-3148-4a25-92aa-cc85b3ca4362" />
+
+
+
+
+
 ### Step 5 — Share Medical History
 
 The patient can approve a doctor or pharmacy access request.
+<img width="1508" height="767" alt="image" src="https://github.com/user-attachments/assets/3d4b8dcf-5883-4009-af17-1a2197255c8c" />
+
 
 ### Step 6 — Healthcare Professional Reviews Records
 
