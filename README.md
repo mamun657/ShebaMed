@@ -56,7 +56,7 @@ This creates a gap between patients, doctors, and local pharmacies.
 
 ---
 
-## 💡 Our Solution — ShebaMed
+## 💡 Our Solution
 
 **ShebaMed is an AI-powered digital healthcare platform designed to make medical history organized, accessible, and connected.**
 
@@ -136,7 +136,7 @@ OCR results may contain errors, especially with unclear images or handwritten pr
 
 ---
 
-### 🧠 3. AI Medical Memory — RAG-Based Assistant
+### 🧠 3. AI Medical Memory - RAG-Based Assistant
 
 One of ShebaMed's core features is its **AI Medical Memory**.
 
@@ -297,24 +297,24 @@ This helps users understand where the information came from.
 
 ## 🔄 How ShebaMed Works
 
-### Step 1 — Create an Account
+### Step 1 - Create an Account
 
 A patient registers using a mobile number and password.
 
 The patient receives a ShebaMed account and can begin building a medical history.
 
-### Step 2 — Upload Medical Records
+### Step 2 - Upload Medical Records
 
 The patient uploads reports, prescriptions, or other supported medical documents.
 <img width="1535" height="863" alt="image" src="https://github.com/user-attachments/assets/6b74f789-59a1-4efb-849c-a8361941a780" />
 
 
 
-### Step 3 — Extract and Organize Information
+### Step 3 - Extract and Organize Information
 
 The document-processing system extracts available information and helps organize the patient's history.
 
-### Step 4 — Ask the AI Assistant
+### Step 4 - Ask the AI Assistant
 
 The patient can search for previous medical information.
 
@@ -327,21 +327,21 @@ The AI retrieves relevant records and provides source-linked answers where suppo
 
 
 
-### Step 5 — Share Medical History
+### Step 5 - Share Medical History
 
 The patient can approve a doctor or pharmacy access request.
 <img width="1508" height="767" alt="image" src="https://github.com/user-attachments/assets/3d4b8dcf-5883-4009-af17-1a2197255c8c" />
 
 
-### Step 6 — Healthcare Professional Reviews Records
+### Step 6 - Healthcare Professional Reviews Records
 
 The authorized professional reviews relevant medical history and original documents.
 
-### Step 7 — Update the Medical Timeline
+### Step 7 - Update the Medical Timeline
 
 Doctor encounters and permitted pharmacy records can be added to the patient's history.
 
-### Step 8 — Patient Remains in Control
+### Step 8 - Patient Remains in Control
 
 Patients can manage and revoke access permissions.
 
@@ -945,7 +945,7 @@ Our vision is to connect these experiences while keeping patients in control.
 
 ---
 
-### 🩺 ShebaMed — Your Health, Connected.
+### 🩺 ShebaMed - Your Health, Connected.
 
 **Because every medical history deserves to be remembered.**
 
